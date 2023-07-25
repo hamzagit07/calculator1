@@ -1,0 +1,90 @@
+    body {
+    font-family: sans-serif, Arial, Helvetica;
+    background-image: url("https://th.bing.com/th/id/R.5d85882ad32302d8ec3f3c8ff7d98471?rik=h%2bEVYJ5fJhwTcg&riu=http%3a%2f%2fak1.picdn.net%2fshutterstock%2fvideos%2f27141481%2fthumb%2f1.jpg%3fi10c%3dimg.resize(height%3a160)&ehk=sUMMRuRlg5UbyosH%2bgNI4kreH92CoLsduUUzEAf%2fUqk%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color:Black;
+}
+
+.calculator-container {
+    background-color: DarkSlateGrey;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.calculator-heading {
+    font-size: 30px;
+    font-family: sans-serif; 
+    color: #fff;
+    text-align: center;
+}
+
+.display-box {
+    background-color: #fff;
+    color: Black;
+    text-align: right;
+    padding: 10px; 
+    border-radius: 0px;
+    margin-bottom: 20px;
+}
+
+.display-text {
+    color: black;
+    margin: 0;
+    font-size: 24px;
+}
+
+
+.buttons-container {
+    display: flex;
+}
+
+.button-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.button {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 1px;
+    width: 50px;
+    font-size: 30px; 
+}
+
+.button.plus {
+  background-color: orange;
+}
+
+.button.minus {
+  background-color: lightgreen;
+}
+
+.button.multiply {
+  background-color: DarkOrchid;
+}
+
+.button.divide {
+  background-color: Gold;
+}
+
+
+.button.equal {
+    background-color: #097969;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 233px;
+} 
